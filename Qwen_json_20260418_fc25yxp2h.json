@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Neon Nights Jazz Club",
+    "date": "2026-05-10",
+    "time": "20:00",
+    "venue": "The Blue Note",
+    "city": "London",
+    "genre": "Jazz",
+    "price": "£15",
+    "image": "https://images.unsplash.com/photo-1511192336575-5a79af67a629?w=500&q=80",
+    "ticketLink": "https://example.com/tickets/1"
+  },
+  {
+    "id": 2,
+    "title": "Electric Sunset Festival",
+    "date": "2026-06-15",
+    "time": "14:00",
+    "venue": "Riverbank Park",
+    "city": "Manchester",
+    "genre": "Electronic",
+    "price": "£45",
+    "image": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80",
+    "ticketLink": "https://example.com/tickets/2"
+  },
+  {
+    "id": 3,
+    "title": "Indie Rock Showcase",
+    "date": "2026-05-22",
+    "time": "19:30",
+    "venue": "The Garage",
+    "city": "London",
+    "genre": "Indie",
+    "price": "£12",
+    "image": "https://images.unsplash.com/photo-1493225255756-d9584f8606e9?w=500&q=80",
+    "ticketLink": "https://example.com/tickets/3"
+  },
+  {
+    "id": 4,
+    "title": "Hip-Hop Underground",
+    "date": "2026-05-18",
+    "time": "21:00",
+    "venue": "Basement Club",
+    "city": "Birmingham",
+    "genre": "Hip-Hop",
+    "price": "£10",
+    "image": "https://images.unsplash.com/photo-1501612780327-45045538702b?w=500&q=80",
+    "ticketLink": "https://example.com/tickets/4"
+  }
+]
