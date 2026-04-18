@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GigFinder - Local Events</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>🎵 GigFinder</h1>
+      <p>Discover live music & events near you</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Search & Filters -->
+    <section class="filters">
+      <input type="text" id="searchInput" placeholder="Search by event, venue, or city..." />
+      <select id="genreFilter">
+        <option value="">All Genres</option>
+        <option value="Rock">Rock</option>
+        <option value="Jazz">Jazz</option>
+        <option value="Electronic">Electronic</option>
+        <option value="Hip-Hop">Hip-Hop</option>
+        <option value="Indie">Indie</option>
+      </select>
+      <input type="date" id="dateFilter" />
+    </section>
+
+    <!-- Event List -->
+    <section id="eventList" class="event-grid">
+      <!-- Events will be injected here by JS -->
+    </section>
+
+    <p id="noResults" style="display:none; text-align:center; color:#666;">No events found.</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 GigFinder. Built with ❤️ for local music.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
